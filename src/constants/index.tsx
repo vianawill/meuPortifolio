@@ -114,7 +114,7 @@ const education: ExperienceType[] = [
     year: '2025',
     title: 'UI Design - Design de Interface de Usuário',
     institute: 'Udemy / Online',
-    desc: 'Criar wireframes, mockups e protótipos profissionais de aplicações mobile/desktop.',
+    desc: 'Criação de wireframes, mockups e protótipos profissionais de aplicações mobile/desktop.',
   },
 ];
 
@@ -173,24 +173,24 @@ const tools: ToolsType[] = [
 const services: ServiceType[] = [
   {
     title: 'Desenvolvimento Web',
-    desc: 'Desenvolvendo sites rápidos e modernos, garantindo uma excelente experiência de navegação com Next.js, Tailwind e tecnologias web atuais.',
+    desc: 'Sites rápidos e modernos, garantindo uma excelente experiência de navegação com Next.js, Tailwind e tecnologias web atuais.',
     icon: <Globe className='h-6 w-6 text-green-400' />,
   },
   {
     title: 'UI/UX Design',
-    desc: 'Desenvolvo layouts limpos e amigáveis, priorizando a facilidade de uso para transformar cada visita em uma experiência positiva.',
+    desc: 'Layouts limpos e amigáveis, priorizando a facilidade de uso para transformar cada visita em uma experiência positiva.',
     icon: <Layers className='h-6 w-6 text-green-400' />,
   },
 
   {
     title: 'Design Responsivo',
-    desc: 'Criando interfaces que se adaptam a qualquer tamanho de tela, garantindo uma navegação impecável tanto no mobile quanto no desktop.',
+    desc: 'Interfaces que se adaptam a qualquer tamanho de tela, garantindo uma navegação impecável tanto no mobile quanto no desktop.',
 
     icon: <Smartphone className='h-6 w-6 text-green-400' />,
   },
   {
     title: 'Consumo de APIs',
-    desc: 'Desenvolvimento de aplicações que utilizam APIs para garantir que o conteúdo seja dinâmico, atualizado e totalmente integrado com outros sistemas.',
+    desc: 'Aplicações que utilizam APIs para garantir que o conteúdo seja dinâmico, atualizado e totalmente integrado com outros sistemas.',
     icon: <Link className='h-6 w-6 text-green-400' />,
   },
 ];

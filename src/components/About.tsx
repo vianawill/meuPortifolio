@@ -43,7 +43,7 @@ export const About = () => {
         aprimorar minhas habilidades em React e TypeScript. Acredito que o
         aprendizado contínuo é a chave na área de tecnologia e busco
         constantemente aplicar as melhores práticas de UX/UI para criar
-        interfaces que sejam não apenas bonitas, mas funcionais e acessíveis.
+        interfaces que sejam não  somente agradáveis visualmente, mas funcionais e acessíveis.
       </motion.p>
 
       <motion.div
