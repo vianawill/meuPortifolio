@@ -17,6 +17,8 @@ export type ExperienceType = {
   title: string;
   institute: string;
   desc: string;
+  category: 'job' | 'education'
+  report?: string
 };
 
 export type ServiceType = {

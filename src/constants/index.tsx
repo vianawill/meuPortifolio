@@ -92,13 +92,15 @@ const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/rdo.jpg',
     title: 'RDO - Relátorio Diário de Obra',
-    description: 'Sistema web para gestão e controle do Relatório Diário de Obra (RDO), permitindo o registro de equipes, materiais e ocorrências para controle técnico e legal. O projeto foi desenvolvido em parceria com a empresa Alfa Engenharia durante o curso no SENAC. Fui responsável pelo desenvolvimento do Frontend, utilizando Tailwind CSS e JavaScript para personalizar o template AdminLTE. Meu foco foi garantir que a interface fosse intuitiva e totalmente responsiva para uso em celulares dentro do canteiro de obras.',
+    description:
+      'Sistema web para gestão e controle do Relatório Diário de Obra (RDO), permitindo o registro de equipes, materiais e ocorrências para controle técnico e legal. O projeto foi desenvolvido em parceria com a empresa Alfa Engenharia durante o curso no SENAC. Fui responsável pelo desenvolvimento do Frontend, utilizando Tailwind CSS e JavaScript para personalizar o template AdminLTE. Meu foco foi garantir que a interface fosse intuitiva e totalmente responsiva para uso em celulares dentro do canteiro de obras.',
     projectLink: 'https://github.com/vianawill/RDO-RelatorioDiarioObra',
   },
   {
     imgSrc: '/images/cardapio.jpg',
     title: 'Cardápio Online',
-    description: 'Cardápio online com integração direta à API do WhatsApp. O projeto foi construído seguindo a estratégia Mobile First, assegurando acessibilidade em qualquer dispositivo. Utilizei JavaScript Puro para a manipulação dinâmica do DOM (carrinho de compras) e Tailwind CSS para uma estilização rápida e consistente. Este projeto serviu para consolidar conhecimentos em estruturação de dados e eventos no navegador.',
+    description:
+      'Cardápio online com integração direta à API do WhatsApp. O projeto foi construído seguindo a estratégia Mobile First, assegurando acessibilidade em qualquer dispositivo. Utilizei JavaScript Puro para a manipulação dinâmica do DOM (carrinho de compras) e Tailwind CSS para uma estilização rápida e consistente. Este projeto serviu para consolidar conhecimentos em estruturação de dados e eventos no navegador.',
     projectLink: 'https://cardapio-js-ecru.vercel.app/',
   },
 ];
@@ -109,12 +111,14 @@ const education: ExperienceType[] = [
     title: 'Técnico em Desenvolvimento de Sistemas',
     institute: 'SENAC Minas',
     desc: 'Formação de base ampla abrangendo todo o ciclo de desenvolvimento, desde a criação de interfaces modernas (Front-end) e lógica de servidor (Back-end) até a gestão de bancos de dados. O curso também incluiu análise de dados, fundamentos de Inteligência Artificial e suporte técnico ao usuário.',
+    category: 'education',
   },
   {
     year: '2025',
     title: 'UI Design - Design de Interface de Usuário',
     institute: 'Udemy / Online',
     desc: 'Criação de wireframes, mockups e protótipos profissionais de aplicações mobile/desktop.',
+    category: 'education',
   },
 ];
 
@@ -122,8 +126,11 @@ const experience: ExperienceType[] = [
   {
     year: '2025',
     title: 'Estágio em Desenvolvimento Frontend',
-    institute: 'Alfa Engenharia',
+    institute: 'Alfa Engenharia - Remoto',
     desc: 'Desenvolvimento de telas e módulos para sistemas de gestão (ERP), com foco em usabilidade e performance. Trabalhei na implementação de funcionalidades dinâmicas e na construção de interfaces, garantindo uma experiência fluida para os usuários do sistema.',
+    category: 'job',
+    report:
+      'Esta foi a minha primeira experiência no mercado de trabalho, conquistada através de um projeto do SENAC. Atuando em modelo remoto, tive o prazer de colaborar com uma equipe excelente que impulsionou meu desenvolvimento. Trabalhei em um sistema de grande porte, o que me permitiu aprender na prática sobre armazenamento de dados, consumo de APIs e versionamento de código (Git). Além disso, a rotina envolveu a resolução de problemas reais e o contato direto com usuários, reforçando a importância da comunicação assertiva e do cumprimento de prazos.',
   },
 ];
 

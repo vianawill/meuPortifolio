@@ -53,7 +53,7 @@ export const Resume = () => {
           variants={fadeUp}
           className='mb-16 md:mb-0'
         >
-          <h2 className='text-3xl font-semibold mb-8'>Educação</h2>
+          <h2 className='text-3xl font-semibold mb-8'>Formação</h2>
           <div className='space-y-8 border-l border-neutral-700 pl-6'>
             {education.map((item, i) => (
               <ExpCard
