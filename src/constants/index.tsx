@@ -67,7 +67,7 @@ const socialLinks: LinksType[] = [
   {
     icon: Github,
     label: 'Github',
-    link: 'https:/www.github.com/vianawill/',
+    link: 'https://www.github.com/vianawill/',
   },
   {
     icon: Mail,
